@@ -13,14 +13,14 @@
 
 [![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/rodneylab/sveltekit-iconify)
 
-Example code for creating SEO markup for an FAQ page in SvelteKit. The code accompanies the <a aria-label="Open Rodney Lab blog post on Svelte Kit accessibility testing" href="https://rodneylab.com/sveltekit-svg-icons/">post on SvelteKit accessibility testing</a>. If you have any questions, please drop a comment at the bottom of that page.
+Example code for creating SEO markup for an FAQ page in SvelteKit. The code accompanies the <a aria-label="Open Rodney Lab blog post on Svelte Kit accessibility testing" href="https://rodneylab.com/sveltekit-svg-icons/">post on adding SVG icons in Svelte</a>. If you have any questions, please drop a comment at the bottom of that page.
 
 ## Building and previewing the site
 
 If you're seeing this, you've probably already done this step. Congrats!
 
 ```bash
-git clone https://github.com/rodneylab/sveltekit-accessibility-testing.git
+git clone https://github.com/rodneylab/sveltekit-iconfiy.git
 cd sveltekit-iconify
 pnpm install # or npm install
 pnpm run dev
