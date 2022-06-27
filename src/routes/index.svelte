@@ -41,10 +41,6 @@
     font-weight: var(--font-weight-normal);
   }
 
-  :global(h1, h2) {
-    font-family: var(--font-heading);
-  }
-
   :global(h1) {
     font-size: var(--font-size-6);
     font-weight: var(--font-weight-black);
@@ -53,6 +49,10 @@
   :global(h2) {
     font-size: var(--font-size-5);
     font-weight: var(--font-weight-bold);
+  }
+
+  :global(h1, h2) {
+    font-family: var(--font-heading);
   }
 
   :global(:root) {
