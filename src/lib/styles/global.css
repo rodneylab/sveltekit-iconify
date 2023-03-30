@@ -1,0 +1,59 @@
+:root {
+	--colour-theme: hsl(6 71% 44%); /* international orange */
+	--colour-brand: hsl(40 100% 64%); /* maximum yellow red */
+	--colour-alt: hsl(200 39% 59%); /* air superiority blue */
+	--colour-light: hsl(340 100% 99%); /* snow */
+	--colour-dark: hsl(238 44% 16%); /* space cadet */
+
+	--spacing-1: 0.25rem;
+	--spacing-4: 1rem;
+	--spacing-6: 1.5rem;
+	--spacing-12: 3rem;
+	--spacing-18: 4.5rem;
+	--spacing-24: 6rem;
+	--max-width-wrapper: 48rem;
+
+	--font-size-root: 16px;
+	--font-size-3: 1.563rem;
+	--font-size-5: 2.441rem;
+	--font-size-6: 3.052rem;
+
+	--font-weight-normal: 400;
+	--font-weight-bold: 700;
+	--font-weight-black: 900;
+
+	--font-heading: 'Martel';
+	--font-body: 'Mate';
+
+	/* CREDIT: https://www.joshwcomeau.com/shadow-palette/ */
+	--shadow-color: 40deg 79% 44%;
+	--shadow-elevation-medium: -0.8px 0.8px 1.1px hsl(var(--shadow-color) / 0.4),
+		-1.9px 1.9px 2.5px -1.2px hsl(var(--shadow-color) / 0.33),
+		-5.4px 5.4px 7.2px -2.5px hsl(var(--shadow-color) / 0.27),
+		-14.3px 14.4px 19px -3.7px hsl(var(--shadow-color) / 0.2);
+}
+
+html {
+	background-color: var(--colour-brand);
+	font-family: var(--font-body);
+}
+
+body {
+	margin: 0;
+	font-weight: var(--font-weight-normal);
+}
+
+h1 {
+	font-size: var(--font-size-6);
+	font-weight: var(--font-weight-black);
+}
+
+h2 {
+	font-size: var(--font-size-5);
+	font-weight: var(--font-weight-bold);
+}
+
+h1,
+h2 {
+	font-family: var(--font-heading);
+}
